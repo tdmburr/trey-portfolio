@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0d0d;
+  color: #ffffff;
+  padding: 10px;
+  width: 100%; /* Header spans the top of the page */
+}
+
+.metallic-text {
+  font-family: 'StarCraft', sans-serif;
+  font-size: 48px;
+  background: linear-gradient(to bottom, #FF6600, #0033CC);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.7);
+}
