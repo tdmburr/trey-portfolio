@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  font-family: 'StarCraft', sans-serif;
+  margin: 0;
+  overflow: hidden; 
+}
+
+.loading-container {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.loading-bar {
+  height: 25px; /* Adjust the height of the loading bar */
+  background-color: lightgray; /* Background color of the loading bar */
+  width: 100%;
+}
+
+.loading-progress {
+  height: 100%;
+  background-color: blue; /* Color of the loading progress */
+  transition: width 0.3s; /* Smooth animation for filling */
+}
+
+.loading-text {
+  font-size: 24px; /* Adjust the font size */
+  margin-top: 10px; /* Add spacing between the loading bar and text */
+}
+
+@keyframes strobe {
+  0%, 50%, 100% {
+    opacity: 0;
+  }
+  25%, 75% {
+    opacity: 1;
+  }
+}
+
+.strobe-text {
+  font-size: 24px;
+  animation: strobe 2s infinite; /* Apply the strobe animation */
+}
+
+.loading-text {
+  font-size: 24px; /* Adjust the font size */
+  margin-top: 10px; /* Add spacing between the loading bar and text */
+}
+
+.loading-percentage {
+  font-size: 24px;
+  margin-top: 10px; /* Add spacing between the loading bar and percentage text */
+}
