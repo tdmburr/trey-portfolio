@@ -1,0 +1,133 @@
+.project-card {
+  display: none;
+  border: 1px solid #ddd;
+  background-color: #ffffffd0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 70rem;
+  transform: translateX(100%); 
+  animation: slide-in 2s forwards; 
+  position: relative;
+  transition: box-shadow 0.3s; 
+}
+
+.project-card:hover {
+  box-shadow: 0 0 20px rgb(234, 231, 25);
+}
+
+.project-card h2 {
+  font-family: sans-serif;
+  font-size: 24px;
+  color: black;
+}
+
+.project-card img {
+  width: 450px;
+  height: 350px;
+  max-width: 100%;
+}
+
+.project-card p {
+  font-family: sans-serif;
+  margin: 10px 0;
+  color: black;
+}
+
+.project-card a {
+  display: block;
+  margin-top: 10px;
+  color: blue;
+  text-decoration: none;
+}
+
+.project-card a:visited {
+  color: none;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden; 
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+}
+
+@keyframes slide-in {
+  to {
+    transform: translateX(0%); 
+  }
+}
+
+.project-card.visible {
+  display: block;
+  animation: projectAnimation 0.5s ease forwards;
+}
+
+@keyframes projectAnimation {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.project-card {
+  animation: projectAnimation 0.5s ease forwards;
+}
+
+.project-card.visible {
+  display: block;
+  animation: projectAnimation 0.5s ease forwards;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 100%;
+}
+
+button.previous-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #0074d9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button.next-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #0074d9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button {
+  width: 115px;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+a {
+  border-radius: 8px;
+}
+
+
+
