@@ -1,17 +1,14 @@
 .main {
-  flex: 1; /* Expand to fill available space */
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.background {
-  height: 100vh;
-  width: 100vw;
 }
 
 .bio-container {
+  background-color: rgba(255, 255, 255, 0.825);
   border: 2px solid black;
-  padding: 10px; 
+  padding: 10px;
+  margin-top: 50px;
+  border-radius: 8px;
 }
+
 

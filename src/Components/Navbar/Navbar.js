@@ -1,46 +1,30 @@
-import React from 'react'
-import Drawer from '@mui/material/Drawer';
-import List from '@mui/material/List';
-import Divider from '@mui/material/Divider';
-import ListItem from '@mui/material/ListItem';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
-import { mainNavbarItems } from './consts/navbarItems';
-import { navbarStyles } from './styles';
-import { useNavigate } from "react-router-dom";
+import React from 'react';
+import './Navbar.css'; 
+import { NavLink } from 'react-router-dom'; 
 
 const Navbar = () => {
-    const navigate = useNavigate();
-
     return (
-        <Drawer
-          sx={navbarStyles.drawer}
-          variant="permanent"
-          anchor="right"
-      >
-        <Divider />
-        <List>
-          {mainNavbarItems.map((item, index) => (
-            <ListItem
-                button
-                key={item.id}
-                onClick={() => navigate(item.route)}
-            >
-              <ListItemIcon
-                sx={navbarStyles.icons}
-              >
-                {item.icon}
-              </ListItemIcon>
-              <ListItemText
-                sx={navbarStyles.text}
-                primary={item.label}
-              />
-            </ListItem>
-          ))}
-        </List>
-      </Drawer>
+        <div className="navbar">
+            <ul className="navbar-list">
+                <li>
+                    <NavLink to="/projects" activeClassName="active-link">Projects</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/hobbies" activeClassName="active-link">Hobbies</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/about" activeClassName="active-link">About</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/contact" activeClassName="active-link">Contact Me</NavLink>
+                </li>
+            </ul>
+        </div>
     );
 };
 
-export default Navbar
+export default Navbar;
+
+
+
 
