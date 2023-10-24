@@ -46,5 +46,5 @@ h1, span {
 img {
   height: 24px;
   width: 24px;
-  filter: invert(31%) sepia(42%) saturate(1423%) hue-rotate(193deg) brightness(75%) contrast(103%);
+  /* filter: invert(31%) sepia(42%) saturate(1423%) hue-rotate(193deg) brightness(75%) contrast(103%); */
 }
