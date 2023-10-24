@@ -63,4 +63,6 @@ body {
   margin-top: 10px; 
 }
 
-
+.no-background-image {
+  background-image: none;
+}
