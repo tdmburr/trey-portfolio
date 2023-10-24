@@ -13,7 +13,7 @@
 }
 
 .project-card:hover {
-  box-shadow: 0 0 20px rgb(234, 231, 25);
+  box-shadow: 0 0 20px rgb(9, 20, 166);
 }
 
 .project-card h2 {
@@ -60,11 +60,6 @@
   to {
     transform: translateX(0%); 
   }
-}
-
-.project-card.visible {
-  display: block;
-  animation: projectAnimation 0.5s ease forwards;
 }
 
 @keyframes projectAnimation {

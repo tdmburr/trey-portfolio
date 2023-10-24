@@ -1,7 +1,7 @@
 import React from 'react';
-import './BodyContainer.css';
+import './Home.css';
 
-const BodyContainer = () => {
+const Home = () => {
   return (
     <main className="main">
       <div className="gif-background">
@@ -13,5 +13,5 @@ const BodyContainer = () => {
   );
 }
 
-export default BodyContainer;
+export default Home;
 

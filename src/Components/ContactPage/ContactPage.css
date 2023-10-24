@@ -1,0 +1,50 @@
+.contact-page {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid white;
+  margin-top: 50px;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-icon {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon a {
+  font-size: 24px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #0074d9;
+}
+
+.contact-icon a:hover {
+  color: #0056b3;
+}
+
+.contact-icon span {
+  font-size: 18px;
+  color: whitesmoke; 
+}
+
+.contact-page h1 {
+  font-size: 36px;
+  color: whitesmoke;
+  margin-bottom: 20px;
+}
+
+h1, span {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+  height: 24px;
+  width: 24px;
+  filter: invert(31%) sepia(42%) saturate(1423%) hue-rotate(193deg) brightness(75%) contrast(103%);
+}
