@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaEnvelope, FaYahoo, FaLinkedin, FaGithub } from 'react-icons/fa'; 
 import './ContactPage.css'
-import Turing from '../../assets/turing_logo_gray-2bc6bdc736890907f536f2d188d7d20ffe8e8b28764bdc724867dcfb78cd1b77.png'
+import Turing from '../../assets/turing-logo.svg'
 
 const ContactPage = () => {
   return (
@@ -34,7 +34,7 @@ const ContactPage = () => {
         </div>
         <div className="contact-icon">
           <a href="https://terminal.turing.edu/profiles/1887">
-            <img src={Turing}></img>
+            <img src={Turing} className="t-logo"></img>
           </a>
           <span>Terminal Profile: https://terminal.turing.edu/profiles/1887</span>
         </div>

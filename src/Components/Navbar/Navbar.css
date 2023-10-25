@@ -1,10 +1,10 @@
 .navbar {
-    background-color: yellow;
-    color: black;
-    width: auto;
-    border-radius: 8px;
+    /* background-color: yellow; */
+    width: 45%;
+    /* border-radius: 8px; */
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .navbar-list {
@@ -24,11 +24,15 @@
 .navbar-list a {
     text-decoration: none;
     color: black;
+    background: linear-gradient(180deg, #76e4b5, #ffffff, #76e4b5);
     padding: 10px;
+    font-size: 24px;
+    white-space: nowrap;
 }
 
 .navbar-list a:hover {
-    background-color: #0074d9;
+    background: #0074d9;
+    color: white;
     animation: pulse 1s infinite;
   }
   
@@ -45,11 +49,11 @@
   }
 
 a.active {
-    background-color: #3498db; 
-    color: #ffffff; 
+    background: #3498db; 
+    color: white; 
     font-weight: bold;
     font-size: 24px;
-    border-radius: 8px;
+    /* border-radius: 8px; */
   }
 
 
