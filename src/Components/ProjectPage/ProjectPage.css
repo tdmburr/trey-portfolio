@@ -17,7 +17,7 @@
 }
 
 .project-card h2 {
-  font-family: sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 24px;
   color: black;
 }
@@ -29,7 +29,7 @@
 }
 
 .project-card p {
-  font-family: sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   margin: 10px 0;
   color: black;
 }
@@ -39,6 +39,7 @@
   margin-top: 10px;
   color: blue;
   text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .project-card a:visited {
@@ -114,15 +115,14 @@ button.next-button {
 button {
   width: 115px;
   font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  text-wrap: nowrap;
 }
 
 button:hover {
   background: #0056b3;
 }
 
-a {
-  border-radius: 8px;
-}
 
 
 

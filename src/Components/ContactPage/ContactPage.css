@@ -18,14 +18,15 @@
 }
 
 .contact-icon a {
-  font-size: 24px;
+  font-size: 40px;
   margin-right: 10px;
   text-decoration: none;
-  color: #0074d9;
+  color: #76e4b5;
 }
 
 .contact-icon a:hover {
   color: #0056b3;
+  font-size: 50px;
 }
 
 .contact-icon span {
@@ -43,8 +44,14 @@ h1, span {
   font-family: 'Courier New', Courier, monospace;
 }
 
-img {
-  height: 24px;
-  width: 24px;
-  /* filter: invert(31%) sepia(42%) saturate(1423%) hue-rotate(193deg) brightness(75%) contrast(103%); */
+.t-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.t-logo:hover {
+  background-color: #0056b3;
+  border-radius: 10px;
+  height:50px;
+  width:50px;
 }

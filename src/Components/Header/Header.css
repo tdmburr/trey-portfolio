@@ -1,20 +1,31 @@
 .header {
   display: flex;
-  flex-direction: column;
-  background-color: rgba(13, 13, 13, 0.6);
+  /* flex-direction: column; */
+  background-color: black;
   width: 100%;
-  height: 20%;
   align-items: center;
 }
 
 .metallic-text {
   font-family: 'StarCraft', sans-serif;
   font-size: 48px;
-  background: linear-gradient(to bottom, #FF6600, #0033CC);
+  background: linear-gradient(90deg, red, blue, green, #ffffff, #76e4b5);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.7);
+  margin-top: 47px;
+  animation: colorRotate 4s linear infinite;
+  background-size: 200% 100%;
+}
+
+@keyframes colorRotate {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
 }
 
 .profile-picture {
@@ -32,8 +43,8 @@
 
 .header-content {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   width: 100%;
   height: 20%;
   padding: 0 20px;
@@ -52,4 +63,10 @@
 
 .link {
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
 }
