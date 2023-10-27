@@ -31,3 +31,24 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+@media (max-width: 768px) {
+  .main {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .gif-background {
+    background-size: contain;
+  }
+}
+
+@media (max-width: 768px) {
+  .bio-container {
+    width: 80%;
+    margin-top: 20px;
+  }
+}
+

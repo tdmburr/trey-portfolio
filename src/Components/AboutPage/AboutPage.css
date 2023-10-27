@@ -1,0 +1,42 @@
+.about-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: 'Courier New', Courier, monospace;
+  width: 75%;
+  height: 70vh;
+}
+
+.section {
+  border: 1px solid #ccc;
+  margin: 10px;
+  background-color: #f9f9f9;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.expander {
+  font-size: 20px;
+  transition: transform 0.3s;
+}
+
+.section.expanded {
+  background-color: #eee;
+}
+
+.section-content {
+  padding: 10px;
+  display: none;
+}
+
+.section.expanded .section-content {
+  display: block;
+}
+
