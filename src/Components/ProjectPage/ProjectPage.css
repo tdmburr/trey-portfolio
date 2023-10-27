@@ -10,6 +10,10 @@
   animation: slide-in 2s forwards; 
   position: relative;
   transition: box-shadow 0.3s; 
+  @media (max-width: 768px) {
+    padding: 10px;
+    margin: 10px;
+  }
 }
 
 .project-card:hover {
@@ -123,6 +127,34 @@ button:hover {
   background: #0056b3;
 }
 
+h2, p {
+  @media (max-width: 768px) {
+      font-size: 14px; 
+  }
+}
 
+img {
+  @media (max-width: 768px) {
+      width: 300px; 
+      height: auto; 
+  }
+}
 
+@media screen and (max-width: 768px) {
+  button.previous-button,
+  button.next-button {
+    padding: 8px 16px; 
+    font-size: 10px; 
+    margin-bottom: 30px; 
+  }
+  h2 {
+    padding-top: 10px;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  .center-container {
+    width: 90%;
+    margin: 0;
+  }
+}

@@ -52,6 +52,93 @@ h1, span {
 .t-logo:hover {
   background-color: #0056b3;
   border-radius: 10px;
-  height:50px;
-  width:50px;
+  height: 50px;
+  width: 50px;
 }
+
+@media (min-width: 768px) {
+  .contact-page {
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  .contact-icon {
+    margin: 10px;
+  }
+
+  .contact-icon a {
+    font-size: 40px;
+    margin-right: 10px;
+  }
+
+  .contact-icon a:hover {
+    font-size: 50px;
+  }
+
+  .contact-icon span {
+    font-size: 18px;
+  }
+
+  .contact-page h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .t-logo {
+    height: 40px;
+    width: 40px;
+  }
+
+  .t-logo:hover {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-page {
+    padding: 10px; 
+    margin-top: 20px; 
+  }
+
+  .contact-icon {
+    margin: 5px; 
+  }
+
+  .contact-icon a {
+    font-size: 24px; 
+    margin-right: 5px; 
+  }
+
+  .contact-icon a:hover {
+    font-size: 30px; 
+  }
+
+  .contact-icon span {
+    font-size: 14px; 
+  }
+
+  .contact-page h1 {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+  }
+
+  .t-logo {
+    height: 30px; 
+    width: 30px; 
+  }
+
+  .t-logo:hover {
+    height: 40px; 
+    width: 40px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-page {
+    padding: 10px; 
+    margin-top: 20px;
+    width: 80%; 
+  }
+}
+

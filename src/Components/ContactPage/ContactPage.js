@@ -34,9 +34,9 @@ const ContactPage = () => {
         </div>
         <div className="contact-icon">
           <a href="https://terminal.turing.edu/profiles/1887">
-            <img src={Turing} className="t-logo"></img>
+            <img src={Turing} className="t-logo" alt="turing logo"></img>
           </a>
-          <span>Terminal Profile: https://terminal.turing.edu/profiles/1887</span>
+          <span>Turing Terminal Profile</span>
         </div>
       </div>
     </div>
