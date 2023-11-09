@@ -26,16 +26,16 @@ const aboutData = [
       </div>, 
     expanded: false 
   },
-  { 
-    title: 'Hobbies', 
-    content: { 
-    },
-    expanded: false 
-  },
-  { title: 'Resume',
-    content: 'Content for Resume',
-    expanded: false 
-  },
+  // { 
+  //   title: 'Hobbies', 
+  //   content: { 
+  //   },
+  //   expanded: false 
+  // },
+  // { title: 'Resume',
+  //   content: 'Content for Resume',
+  //   expanded: false 
+  // },
 ]
 
 export default aboutData
